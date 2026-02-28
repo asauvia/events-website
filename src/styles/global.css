@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #050810;
+  --color-bg-deep: #080c1a;
+  --color-bg-surface: rgba(255, 255, 255, 0.035);
+  --color-bg-surface-hover: rgba(255, 255, 255, 0.065);
+  --color-accent-cyan: #5ce4f8;
+  --color-accent-violet: #a78bff;
+  --color-accent-green: #7efbb4;
+  --color-text-primary: rgba(255, 255, 255, 0.95);
+  --color-text-secondary: rgba(255, 255, 255, 0.70);
+  --color-text-muted: rgba(255, 255, 255, 0.45);
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+  --color-border-bright: rgba(255, 255, 255, 0.15);
+  --color-border-accent: rgba(92, 228, 248, 0.3);
+}
+
+/* ===================================================================
+   GLOBAL DESIGN SYSTEM — Premium Dark Theme
+   =================================================================== */
+
+/* Reset HTML/Body styles with base rendering config */
+html {
+  min-height: 100%;
+  background-color: var(--color-bg-base);
+  /* The global gradient eliminates the hard horizontal cutoff bug */
+  background-image:
+    radial-gradient(ellipse 1400px 800px at 75% 15%, rgba(92, 228, 248, 0.14) 0%, transparent 60%),
+    radial-gradient(ellipse 1100px 700px at 20% 80%, rgba(167, 139, 255, 0.11) 0%, transparent 60%),
+    radial-gradient(ellipse 700px 500px at 50% 50%, rgba(92, 228, 248, 0.04) 0%, transparent 70%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: var(--color-text-primary);
+  background: transparent;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
