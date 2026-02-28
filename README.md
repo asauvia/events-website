@@ -24,3 +24,4 @@ npm run preview
 - Edit sections: `src/pages/Home.jsx`
 - Tweak theme colors: `src/styles/global.css`
 # events-website
+# events-website
