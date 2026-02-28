@@ -20,7 +20,7 @@ export default function Login() {
             }} />
             <div className="absolute inset-0 pointer-events-none z-0 bg-[radial-gradient(700px_400px_at_78%_12%,rgba(92,228,248,0.10)_0%,transparent_55%),radial-gradient(600px_400px_at_18%_78%,rgba(167,139,255,0.08)_0%,transparent_55%)]" />
 
-            <main className="relative z-10 min-h-[calc(100vh-64px)] flex items-center justify-center p-6 sm:p-10">
+            <main className="relative z-10 min-h-[calc(100vh-64px)] flex items-center justify-center p-6 sm:p-10 pt-28 sm:pt-32">
                 <div className="flex flex-col md:flex-row w-full max-w-[960px] bg-white/[0.03] backdrop-blur-[20px] saturate-[180%] border border-white/5 rounded-3xl overflow-hidden shadow-[0_32px_80px_rgba(0,0,0,0.55),inset_0_1px_0_rgba(255,255,255,0.06)] min-h-[560px]">
 
                     {/* Left: Login Form */}

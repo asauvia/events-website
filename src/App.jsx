@@ -6,6 +6,8 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Events from './pages/Events.jsx'
 import Login from './pages/Login.jsx'
+import Team from './pages/Team.jsx'
+import Contact from './pages/Contact.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 export default function App() {
@@ -27,6 +29,8 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

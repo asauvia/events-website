@@ -42,7 +42,7 @@ export default function Home() {
       }} />
 
       <main className="relative z-10">
-        <section className="pt-20 pb-10 px-6 max-sm:pt-16 max-sm:pb-8" id="top">
+        <section className="pt-30 pb-10 px-6 max-sm:pt-16 max-sm:pb-8" id="top">
           <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-10 lg:gap-12 items-center">
 
             {/* Hero Left */}
@@ -129,7 +129,7 @@ export default function Home() {
         </section>
 
         {/* NEW GALLERY SECTION */}
-        <section className="py-14 px-6 border-t border-white/10" id="gallery">
+        {/* <section className="py-14 px-6 border-t border-white/10" id="gallery">
           <div className="max-w-[1200px] mx-auto">
             <h2 className="text-[clamp(22px,3vw,30px)] font-extrabold tracking-[-0.5px] mb-6">Event Gallery</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -150,9 +150,9 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="py-14 px-6 border-t border-white/10" id="about">
+        <section className="py-14 px-6" id="about">
           <div className="max-w-[1200px] mx-auto">
             <h2 className="text-[clamp(22px,3vw,30px)] font-extrabold tracking-[-0.5px] mb-5">About ASAUViA</h2>
 
@@ -173,7 +173,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-14 px-6 border-t border-white/10" id="tracks">
+        <section className="py-14 px-6" id="tracks">
           <div className="max-w-[1200px] mx-auto">
             <h2 className="text-[clamp(22px,3vw,30px)] font-extrabold tracking-[-0.5px] mb-5">Tracks</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -212,7 +212,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-14 px-6 border-t border-white/10" id="schedule">
+        <section className="py-14 px-6" id="schedule">
           <div className="max-w-[1200px] mx-auto">
             <h2 className="text-[clamp(22px,3vw,30px)] font-extrabold tracking-[-0.5px] mb-5">Schedule Snapshot</h2>
             <div className="grid gap-2.5">
@@ -241,7 +241,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="py-14 px-6 border-t border-white/10" id="register">
+        <section className="py-14 px-6" id="register">
           <div className="max-w-[1200px] mx-auto">
             <div className="rounded-[32px] border border-[#5ce4f8]/20 bg-gradient-to-br from-[#5ce4f8]/[.07] to-[#a78bff]/[.07] shadow-[0_12px_40px_rgba(0,0,0,0.5),inset_0_1px_0_rgba(255,255,255,0.06)] p-8 flex justify-between items-center gap-5 flex-wrap backdrop-blur-xl">
               <div>

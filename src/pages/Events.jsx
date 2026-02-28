@@ -48,7 +48,7 @@ export default function Events() {
                 `
             }} />
 
-            <main className="relative z-10 pt-[60px]">
+            <main className="relative z-10 pt-[100px]">
                 <section className="py-14 px-6 border-t border-white/10 border-t-transparent">
                     <div className="max-w-[1200px] mx-auto">
                         <div className="inline-flex items-center gap-2.5 py-[7px] px-[14px] rounded-full border border-[#5ce4f8]/20 bg-[#5ce4f8]/5 text-white/80 font-semibold text-[12px] tracking-[0.5px] w-fit mb-4">Upcoming Tracking</div>
