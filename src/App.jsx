@@ -9,6 +9,7 @@ import Login from './pages/Login.jsx'
 import Team from './pages/Team.jsx'
 import Contact from './pages/Contact.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 export default function App() {
   const [loading, setLoading] = useState(true)
@@ -22,6 +23,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="min-h-screen flex flex-col">
         <Header />
         <Routes>

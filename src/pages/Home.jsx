@@ -102,7 +102,7 @@ export default function Home() {
                   <div className="grid gap-2">
                     <div className="flex justify-between items-center py-2.5 px-3.5 rounded-xl border border-white/10 bg-white/[0.035] transition-colors hover:border-white/15">
                       <div className="text-white/45 font-semibold text-xs">Location</div>
-                      <div className="text-white/95 font-bold text-xs">IIT Jodhpur</div>
+                      <div className="text-white/95 font-bold text-xs">Remote</div>
                     </div>
                     <div className="flex justify-between items-center py-2.5 px-3.5 rounded-xl border border-white/10 bg-white/[0.035] transition-colors hover:border-white/15">
                       <div className="text-white/45 font-semibold text-xs">Season</div>
@@ -251,8 +251,10 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex gap-3 flex-wrap">
-                <a className="px-5 py-2.5 rounded-full font-bold text-[13px] tracking-[0.5px] transition-all duration-200 bg-white text-[#050810] hover:bg-white/90 shadow-[inset_0_-2px_0_rgba(0,0,0,0.2)]" href="#contact">Contact Team</a>
-                <a className="px-5 py-2.5 rounded-full font-bold text-[13px] tracking-[0.5px] transition-all duration-200 bg-white/5 text-white/95 border border-white/10 backdrop-blur-md hover:bg-white/10 hover:border-white/20" href="#top">Back to top</a>
+                <Link to="/contact" className="px-5 py-2.5 rounded-full font-bold text-[13px] tracking-[0.5px] transition-all bg-white text-[#050810] hover:bg-white/90 shadow-[inset_0_-2px_0_rgba(0,0,0,0.2)]">
+                  Contact Team                                            </Link>
+                {/* <a className="px-5 py-2.5 rounded-full font-bold text-[13px] tracking-[0.5px] transition-all bg-white text-[#050810] hover:bg-white/90 shadow-[inset_0_-2px_0_rgba(0,0,0,0.2)]" href="/contact">Contact Team</a> */}
+                <a className="px-5 py-2.5 rounded-full font-bold text-[13px] tracking-[0.5px] transition-all  bg-white/5 text-white/95 border border-white/10 backdrop-blur-md hover:bg-white/10 hover:border-white/20" href="#top">Back to top</a>
               </div>
             </div>
           </div>
