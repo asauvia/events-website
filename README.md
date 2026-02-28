@@ -25,3 +25,4 @@ npm run preview
 - Tweak theme colors: `src/styles/global.css`
 # events-website
 # events-website
+# events-website
